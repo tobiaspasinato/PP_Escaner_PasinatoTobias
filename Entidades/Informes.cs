@@ -23,17 +23,16 @@ namespace Entidades
                         auxExtencion += mapa.Superficie;
 						contador += 1;
 						texto.Append(mapa.ToString());
-
                     }
 					else if(doc is Libro libro)
 					{
-						auxExtencion += libro.NumeroDePag;
+						auxExtencion += libro.NumPaginas;
                         contador += 1;
                         texto.Append(libro.ToString());
                     }
 				}
 			}
-			extencion = auxExtencion;
+            extencion = auxExtencion;
 			cantidad = contador;
 			resumen = texto.ToString();
         }

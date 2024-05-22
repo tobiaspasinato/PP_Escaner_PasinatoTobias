@@ -87,6 +87,7 @@ namespace Entidades
             bool retorno = false;
             if(documento.Estado == Paso.Inicio && escaner != documento)
             {
+                escaner.CambiarEstadoDocumento(documento);
                 escaner.listaDocumentos.Add(documento);
                 retorno = true;
             }

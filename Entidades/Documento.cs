@@ -84,28 +84,13 @@ namespace Entidades
 
         public bool AvanzarEstado()
         {
-            if (estado == Paso.Inicio)
+			bool retorno = false;
+            if (estado != Paso.Terminado)
             {
-				this.estado = Paso.Distribuido;
+				estado++;
+				retorno = true;
             }
-            else if (estado == Paso.Distribuido)
-            {
-                this.estado = Paso.EnEscaner;
-            }
-            else if (estado == Paso.EnEscaner)
-            {
-                this.estado = Paso.EnRevision;
-            }
-            else if (estado == Paso.EnRevision)
-            {
-                this.estado = Paso.Terminado;
-            }
-            else if (estado == Paso.Terminado)
-            {
-                return false;
-            }
-
-            return true;
+            return retorno;
         }
 
         public override string ToString()

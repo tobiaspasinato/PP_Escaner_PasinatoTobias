@@ -12,12 +12,12 @@ namespace Entidades
 {
 	public class Libro : Documento
 	{
-        int numeroDePag;
+        int numPaginas;
 
         public Libro(string titulo, string autor, int anio, string numNormalizado, string barcode, int numeroDePag)
 			: base(anio, autor, barcode, numNormalizado, titulo)
 		{
-			this.numeroDePag = numeroDePag;
+			this.numPaginas = numeroDePag;
 		}
 
 		public string ISBN
@@ -25,9 +25,9 @@ namespace Entidades
 			get => this.NumNormalizado;
 		}
 
-		public int NumeroDePag
-		{
-			get => this.numeroDePag;
+		public int NumPaginas
+        {
+			get => this.numPaginas;
 		}
 
 		public static bool operator ==(Libro I1, Libro I2)
@@ -46,7 +46,7 @@ namespace Entidades
             texto.Append(base.ToString());
             texto.AppendLine($"");
             texto.AppendLine($"ISBN: {this.NumNormalizado}.");
-            texto.AppendLine($"Núm. Páginas: {this.numeroDePag}");
+            texto.AppendLine($"Núm. Páginas: {this.numPaginas}");
             return texto.ToString();
         }
 
