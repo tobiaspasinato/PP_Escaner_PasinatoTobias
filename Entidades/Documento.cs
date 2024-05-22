@@ -7,6 +7,8 @@ using System.Drawing;
 	-probar en avanzar dato si haciendo +1 al enum avanza
 */
 
+/// La Clase abstracta "Documento" es la clase padre de "Mapa" y "libro" que sirve como base para estas. Crea las configuraciones que se van a usar en cada una.
+
 namespace Entidades
 {
 	public abstract class Documento

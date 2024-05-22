@@ -7,6 +7,8 @@ using static Entidades.Documento;
 	COSAS QUE LE FALTAN:
 */
 
+/// La clase Escaner se encarga de crear una lista de objetos.
+
 namespace Entidades
 {
     public class Escaner

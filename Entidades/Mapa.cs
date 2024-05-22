@@ -6,6 +6,8 @@ using System.Drawing;
 	COSAS QUE LE FALTAN:
 */
 
+/// La clase Mapa va a crear un abjeto que guarde las caracteristicas que conforman un mapa y podra evaluar si es igual a otro.
+
 namespace Entidades
 {
 	public class Mapa : Documento

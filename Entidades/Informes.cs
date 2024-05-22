@@ -2,6 +2,8 @@
 using System.Text;
 using System.Drawing;
 
+/// La clase informes solo esta constituida de matoddos los cuales se encargan de mostrar los diferentes ojetos instanciados.
+
 namespace Entidades
 {
 	public static class Informes

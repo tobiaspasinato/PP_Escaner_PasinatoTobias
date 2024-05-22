@@ -6,6 +6,8 @@ using System.Drawing;
 	COSAS QUE LE FALTAN:
 */
 
+/// La clase libro va a crear un abjeto que guarde las caracteristicas que conforman un libro y podra evaluar si es igual a otro.
+
 namespace Entidades
 {
 	public class Libro : Documento
