@@ -38,8 +38,23 @@ namespace Entidades
 
 		public static void MostrarDistribuidos(Escaner e, out int extencion, out int cantidad, out string resumen)
 		{
-			MostrarDocumentosPorEstado(e, Documento.Paso.Distribuido, extencion, cantidad, resumen);
+			MostrarDocumentosPorEstado(e, Documento.Paso.Distribuido, out extencion, out cantidad, out resumen);
 		}
-	}
+
+        public static void MostrarEnEscaner(Escaner e, out int extencion, out int cantidad, out string resumen)
+        {
+            MostrarDocumentosPorEstado(e, Documento.Paso.EnEscaner, out extencion, out cantidad, out resumen);
+        }
+
+        public static void MostrarEnRevision(Escaner e, out int extencion, out int cantidad, out string resumen)
+        {
+            MostrarDocumentosPorEstado(e, Documento.Paso.EnRevision, out extencion, out cantidad, out resumen);
+        }
+
+        public static void MostrarTerminados(Escaner e, out int extencion, out int cantidad, out string resumen)
+        {
+            MostrarDocumentosPorEstado(e, Documento.Paso.Terminado, out extencion, out cantidad, out resumen);
+        }
+    }
 }
 
