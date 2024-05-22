@@ -82,7 +82,7 @@ namespace Entidades
 			get => this.titulo;
 		}
 
-        public bool AvanzarDato()
+        public bool AvanzarEstado()
         {
             if (estado == Paso.Inicio)
             {

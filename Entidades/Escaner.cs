@@ -44,28 +44,33 @@ namespace Entidades
         }
         public bool CambiarEstadoDocumento(Documento d)
         {
-            return d.AvanzarDato();
+            return d.AvanzarEstado();
         }
 
         public static bool operator ==(Escaner e, Documento d)
         {
             bool retorno = false;
-            if(e.tipo == TipoDoc.mapa && d is Mapa map)
+            foreach (Documento doc in e.listaDocumentos)
             {
-                foreach (Documento doc in e.listaDocumentos)
+                if (d.GetType() == doc.GetType())
                 {
-                    if (map == (Mapa)doc)
+                    if (d.GetType() == typeof(Libro))
                     {
-                        retorno = true;
+                        Libro libro1 = (Libro)doc;
+                        Libro libro2 = (Libro)d;
+                        if (libro1 == libro2)
+                        {
+                            retorno = true;
+                        }
                     }
-                }
-            } else if(e.tipo == TipoDoc.libro && d is Libro lib)
-            {
-                foreach (Documento doc in e.listaDocumentos)
-                {
-                    if (lib == (Libro)doc)
+                    else if (d.GetType() == typeof(Mapa))
                     {
-                        retorno = true;
+                        Mapa mapa1 = (Mapa)doc;
+                        Mapa mapa2 = (Mapa)d;
+                        if (mapa1 == mapa2)
+                        {
+                            retorno = true;
+                        }
                     }
                 }
             }

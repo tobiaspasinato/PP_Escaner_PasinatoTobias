@@ -14,7 +14,7 @@ namespace Entidades
 	{
         int numeroDePag;
 
-        public Libro(int anio, string autor, string barcode, string numNormalizado, string titulo, int numeroDePag)
+        public Libro(string titulo, string autor, int anio, string numNormalizado, string barcode, int numeroDePag)
 			: base(anio, autor, barcode, numNormalizado, titulo)
 		{
 			this.numeroDePag = numeroDePag;
