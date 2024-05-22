@@ -1,0 +1,15 @@
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/bin/Debug/net7.0/PP_Prog2
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/bin/Debug/net7.0/PP_Prog2.deps.json
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/bin/Debug/net7.0/PP_Prog2.runtimeconfig.json
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/bin/Debug/net7.0/PP_Prog2.dll
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/bin/Debug/net7.0/PP_Prog2.pdb
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/obj/Debug/net7.0/PP_Prog2.csproj.AssemblyReference.cache
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/obj/Debug/net7.0/PP_Prog2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/obj/Debug/net7.0/PP_Prog2.AssemblyInfoInputs.cache
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/obj/Debug/net7.0/PP_Prog2.AssemblyInfo.cs
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/obj/Debug/net7.0/PP_Prog2.csproj.CoreCompileInputs.cache
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/obj/Debug/net7.0/PP_Prog2.dll
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/obj/Debug/net7.0/refint/PP_Prog2.dll
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/obj/Debug/net7.0/PP_Prog2.pdb
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/obj/Debug/net7.0/PP_Prog2.genruntimeconfig.cache
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/PP_Prog2/obj/Debug/net7.0/ref/PP_Prog2.dll

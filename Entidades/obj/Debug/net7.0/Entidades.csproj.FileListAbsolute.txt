@@ -1,0 +1,12 @@
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/Entidades/obj/Debug/net7.0/Entidades.csproj.AssemblyReference.cache
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/Entidades/obj/Debug/net7.0/Entidades.GeneratedMSBuildEditorConfig.editorconfig
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/Entidades/obj/Debug/net7.0/Entidades.AssemblyInfoInputs.cache
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/Entidades/obj/Debug/net7.0/Entidades.AssemblyInfo.cs
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/Entidades/obj/Debug/net7.0/Entidades.csproj.CoreCompileInputs.cache
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/Entidades/bin/Debug/net7.0/Entidades.deps.json
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/Entidades/bin/Debug/net7.0/Entidades.dll
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/Entidades/bin/Debug/net7.0/Entidades.pdb
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/Entidades/obj/Debug/net7.0/Entidades.dll
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/Entidades/obj/Debug/net7.0/refint/Entidades.dll
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/Entidades/obj/Debug/net7.0/Entidades.pdb
+/Users/midlesus/Desktop/prog/c#/PP_Prog2/Entidades/obj/Debug/net7.0/ref/Entidades.dll
